@@ -89,12 +89,12 @@ def make_fit_dic(solve, actual_dic):
     """
     returnDic = {}
     timemeasured,timeindex = construct_time(actual_dic)
-    plas_solve = []
+    need_solve = []
     for i in range(len(solve)):
-        plas_solve.append(solve[i][represents - 1]) # Only data for the compartment CSV data represents
+        need_solve.append(solve[i][represents - 1]) # Only data for the compartment CSV data represents
     non_normal_conc = [] 
     for index in timeindex:
-        non_normal_conc.append(plas_solve[index])
+        non_normal_conc.append(need_solve[index])
     max_conc = max(non_normal_conc)
     normal_conc = [x/max_conc for x in non_normal_conc] # Normalize
     for i in range(len(timeindex)):
