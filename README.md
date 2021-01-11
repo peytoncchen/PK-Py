@@ -54,6 +54,5 @@ This application is licensed under the MIT License. See [LICENSE.txt](LICENSE.tx
 
 ## Acknowledgments
 - Caitlin Maikawa, Stanford Bioengineering Ph.D.
-  - for all the help with complex statistics, math, and components of UI design
 - Joseph Mann, Stanford Materials Science Ph.D.
-- Eric Appel, Assistant Professor of Material Sicence and Engineering at Stanford University
+- Eric Appel, Assistant Professor of Material Science and Engineering at Stanford University
